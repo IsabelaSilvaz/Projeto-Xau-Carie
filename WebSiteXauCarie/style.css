@@ -34,7 +34,7 @@
     height: 300px;
     background-color: #159A9C;
     border-radius: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Carrois Gothic SC';
@@ -45,10 +45,13 @@
     text-align: center;
     color: white;
     padding-top: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
-.card-1 img {
-    padding-top: 20px;
-}
+
 
 .botaoSaibaMais {
     background-color: #002333;
@@ -57,4 +60,50 @@
     border-radius: 30px;
     border-style: none;
     color: white;
+}
+.footer {
+    background-color: #002333;
+    height: auto;
+    margin-top: 20px;
+    position: fixed;
+    align-items: center;
+    height: 100vh;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sobre h2 {
+    font-family: 'Carrois Gothic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: white;
+    margin-top: 10px;
+
+}
+.sobre p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    margin-top: 20px;
 }
